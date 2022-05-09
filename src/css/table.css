@@ -1,0 +1,41 @@
+table {
+	border-collapse: collapse;
+
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
+table tr:nth-child(odd) {
+    background-color: #1C2D3A;
+}
+
+table tr:nth-child(even) {
+    background-color: #203443;
+}
+
+table thead tr:first-child {
+	background-color: #1A2832;
+}
+
+
+th {
+	
+	padding: 1rem;
+}
+
+th, td {
+	padding: 1rem 2rem 1rem 1rem;
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+table td:last-child {
+	padding-right: 1rem;
+}
+
+td {
+	
+	font-weight: normal;
+	color: rgba(255, 255, 255, 0.7);
+}

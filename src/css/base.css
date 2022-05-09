@@ -1,0 +1,16 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	background-color: hsl(207, 37%, 12%);
+	font-family: sans-serif;
+	color: white;
+}
+
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}

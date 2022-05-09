@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&display=swap');
+
+@font-face {
+	font-family: 'AvenirLTPro';
+	font-weight: normal;
+	src: local('AvenirLTProMedium'), 
+		url("./../assets/fonts/AvenirLTProMedium.otf") format('opentype');
+}
+
+@font-face {
+	font-family: 'AvenirLTPro';
+	font-weight: 900;
+	src: local('AvenirLTProBlack'), 
+		url("./../assets/fonts/AvenirLTProBlack.otf") format('opentype');
+}
+
+@font-face {
+	font-family: 'AvenirLTPro';
+	font-weight: bold;
+	src: local('AvenirLTProHeavy'), 
+		url("./../assets/fonts/AvenirLTProHeavy.otf") format('opentype');
+}
+
+@font-face {
+	font-family: 'AvenirLTStd';
+	font-weight: normal;
+	src: local('AvenirLTProHeavy'), 
+		url("./../assets/fonts/AvenirLTStd-Book.ttf") format('truetype');
+}
